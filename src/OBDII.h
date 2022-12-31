@@ -1,5 +1,6 @@
-#ifndef __OBDII_H
-#define __OBDII_H
+#ifndef OBDII_H
+#define OBDII_H
+
 #include <stdint.h>
 
 #ifdef __cplusplus
@@ -285,4 +286,4 @@ void OBDIICommandSetFree(OBDIICommandSet *commandSet);
 }
 #endif
 
-#endif /* OBDII.h */
+#endif /* OBDII_H */

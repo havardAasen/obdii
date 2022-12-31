@@ -1,5 +1,5 @@
-#ifndef __OBDII_DAEMON_H
-#define __OBDII_DAEMON_H
+#ifndef OBDII_DAEMON_H
+#define OBDII_DAEMON_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -27,4 +27,4 @@ typedef enum {
 }
 #endif
 
-#endif /* OBDIIDaemon.h */
+#endif /* OBDII_DAEMON_H */

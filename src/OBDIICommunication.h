@@ -1,5 +1,5 @@
-#ifndef __OBDII_COMMUNICATION_H
-#define __OBDII_COMMUNICATION_H
+#ifndef OBDII_COMMUNICATION_H
+#define OBDII_COMMUNICATION_H
 
 #include "OBDII.h"
 #include <linux/can.h>
@@ -101,4 +101,4 @@ OBDIICommandSet OBDIIGetSupportedCommands(OBDIISocket *s);
 }
 #endif
 
-#endif /* OBDIICommunication.h */
+#endif /* OBDII_COMMUNICATION_H */
